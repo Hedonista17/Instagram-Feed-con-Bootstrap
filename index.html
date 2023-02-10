@@ -68,54 +68,58 @@
                             </div>
                         </a>
                     <li>
-                        <div class="dropstart"> <!--BOTON MENU OPCIONES  -->
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+
+                        <div class="dropdown pull-right"> <!-- BOTON DROPDOWN  -->
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                                data-bs-display="static" aria-expanded="false">
                                 <i class="fa-solid fa-gear"></i>
                             </button>
-                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-md-start">
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
-                                <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Profile</button></li>
+                                <li><button class="dropdown-item" type="button">Accesibility</button></li>
+                                <li><button class="dropdown-item" type="button">Privacy and Data</button></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item text-danger" href="#">Log out </a></li>
                             </ul>
                         </div>
+
                     </li>
 
                 </ul>
             </div>
         </div>
 
+
+
     </nav>
-    <ul>
-        <nav class="nav justify-content-center"> <!--OPCIONES DE VISUALIZACION -->
-            <div class="nav nav-tabs" class="nav-tab" role="tablist">
-                <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
-                    role="tab" aria-controls="nav-home" aria-selected="true"><i
-                        class="fa-solid fa-table-cells"></i></button>
-                <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i
-                        class="fa-solid fa-square"></i></button>
-            </div>
-        </nav>
-    </ul>
+
+    <nav class="nav justify-content-center pb-2"> <!--OPCIONES DE VISUALIZACION -->
+        <div class="nav nav-tabs" class="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i
+                    class="fa-solid fa-square"></i></button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i
+                    class="fa-solid fa-table-cells"></i></button>
+        </div>
+    </nav>
+
     <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
             tabindex="0"> <!-- GRID DE FOTOS EN COLUMNAS  -->
             <div class="container text-center">
                 <div class="row m-0">
-                    <div class="col-md pb-2 px-0">
+                    <div class="col-lg-4 col-md-3 col-sm-auto pb-2 px-0">
                         <img src="https://cdn.pixabay.com/photo/2022/11/21/19/11/facade-7607939__340.jpg" width="400"
                             height="400" class="object-fit-cover border square">
                     </div>
-                    <div class="col-md pb-2 px-0">
+                    <div class="col-lg-4 col-md-3 col-sm-auto  pb-2 px-0">
                         <img src="https://cdn.pixabay.com/photo/2023/01/24/13/23/viet-nam-7741017_640.jpg" width="400"
                             height="400" class="object-fit-cover border square">
                     </div>
-                    <div class="col-md pb-2 px-0">
+                    <div class="col-lg-4 col-md-3 col-sm-auto  pb-2 px-0">
                         <img src="https://cdn.pixabay.com/photo/2020/03/09/15/31/girl-4916123__340.jpg" width="400"
                             height="400" class="object-fit-cover border square">
                     </div>
@@ -123,33 +127,33 @@
             </div>
             <div class="container text-center">
                 <div class="row m-0">
-                    <div class="col-md pb-2 px-0">
+                    <div class="col-lg-4 col-md-3 col-sm-auto  pb-2 px-0">
                         <img src="https://cdn.pixabay.com/photo/2023/01/11/09/30/trees-7711283_640.jpg" width="400"
                             height="400" class="object-fit-cover border square">
                     </div>
-                    <div class="col-md pb-2 px-0">
-                        <img src="https://cdn.pixabay.com/photo/2023/01/13/03/40/mogotes-7715228_960_720.jpg" width="400"
-                            height="400" class="object-fit-cover border square">
+                    <div class="col-lg-4 col-md-3 col-sm-auto  pb-2 px-0">
+                        <img src="https://cdn.pixabay.com/photo/2023/01/13/03/40/mogotes-7715228_960_720.jpg"
+                            width="400" height="400" class="object-fit-cover border square">
                     </div>
-                    <div class="col-md pb-2 px-0">
-                        <img src="https://cdn.pixabay.com/photo/2022/11/14/06/56/maple-7590861_640.jpg" width="400"
+                    <div class="col-lg-4 col-md-3 col-sm-auto  pb-2 px-0">
+                        <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_640.jpg" width="400"
                             height="400" class="object-fit-cover border square">
                     </div>
                 </div>
             </div>
             <div class="container text-center">
                 <div class="row m-0 pb-5">
-                    <div class="col-md pb-2 px-0">
+                    <div class="col-lg-4 col-md-3 col-sm-auto  pb-2 px-0">
                         <img src="https://cdn.pixabay.com/photo/2016/06/22/08/52/coffe-1472675_960_720.jpg" width="400"
                             height="400" class="object-fit-cover border square">
                     </div>
-                    <div class="col-md pb-2 px-0">
+                    <div class="col-lg-4 col-md-3 col-sm-auto  pb-2 px-0">
                         <img src="https://cdn.pixabay.com/photo/2016/11/23/13/32/red-panda-1852861_640.jpg" width="400"
                             height="400" class="object-fit-cover border square">
                     </div>
-                    <div class="col-md pb-2 px-0">
-                        <img src="https://soyfrontend.files.wordpress.com/2016/02/aprende-html-se-cree-programador.jpg?w=707" width="400"
-                            height="400" class="object-fit-cover border square">
+                    <div class="col-lg-4 col-md-3 col-sm-auto  pb-2 px-0">
+                        <img src="https://soyfrontend.files.wordpress.com/2016/02/aprende-html-se-cree-programador.jpg?w=707"
+                            width="400" height="400" class="object-fit-cover border square">
                     </div>
                 </div>
             </div>
@@ -167,7 +171,8 @@
                         <div>27/01</div>
                     </div>
 
-                    <img src="https://cdn.pixabay.com/photo/2023/01/13/03/40/mogotes-7715228_960_720.jpg" class="card-img-top w-100% h-auto" />
+                    <img src="https://cdn.pixabay.com/photo/2023/01/13/03/40/mogotes-7715228_960_720.jpg"
+                        class="card-img-top w-100% h-auto" />
                     <div class="card-body">
                         <h6 class="card-text">250 Likes</h6>
                         <p class="card-text">
@@ -187,7 +192,8 @@
                         <div>30/10</div>
                     </div>
 
-                    <img src="https://cdn.pixabay.com/photo/2022/11/14/06/56/maple-7590861_640.jpg" class="card-img-top w-100% h-auto">
+                    <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_640.jpg"
+                        class="card-img-top w-100% h-auto">
                     <div class="card-body">
                         <h6 class="card-text">40 Likes</h6>
                         <p class="card-text"> Cualquiera que piense que las hojas caídas están muertas, nunca
@@ -208,7 +214,8 @@
                         <div>25/09</div>
                     </div>
 
-                    <img src="https://cdn.pixabay.com/photo/2016/06/22/08/52/coffe-1472675_960_720.jpg" class="card-img-top w-100% h-auto">
+                    <img src="https://cdn.pixabay.com/photo/2016/06/22/08/52/coffe-1472675_960_720.jpg"
+                        class="card-img-top w-100% h-auto">
                     <div class="card-body">
                         <h6 class="card-text">127 Likes</h6>
                         <p class="card-text"> El tamaño sí importa. A nadie le gusta tomar café en tazas
